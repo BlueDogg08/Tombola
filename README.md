@@ -1,7 +1,7 @@
 # Tombola - Offline HTML, CSS, and JavaScript Game
 
 ## 🎉 **Introduction**
-Welcome to the **Tombola game**! This is a simple and interactive **Tombola** game built entirely with **HTML**, **CSS**, and **JavaScript**, designed to be played **offline** with no need for an internet connection.
+Welcome to the **Tombola game**! This is a simple and interactive **Tombola** game built entirely with **HTML**, **CSS**, and **JavaScript**, designed to be played **offline** with no need for an internet connection. It is a project made during high school 🏫.
 
 ## 🚀 **Features**
 - **Interactive Number Extraction**: Draw random numbers with a simple click of a button.
