@@ -1,0 +1,114 @@
+body{
+	color: black;
+	background-image: url("../images/tovaglia.jpg");
+	background-repeat: no-repeat;
+  	background-size: 1500px 2000px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	-webkit-touch-callout: none;
+  	-webkit-user-select: none;
+  	-khtml-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+}
+
+#titolo{
+	text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#titolo_mobile{
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-filter: drop-shadow(2px 1px 0 black)
+                  drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(2px 1px 0 black) 
+          drop-shadow(-1px -1px 0 black);
+}
+
+#tabellone{
+	border-collapse: collapse;
+	color: whitesmoke;
+	-webkit-text-stroke: 0.7px black;
+	background-color: #e6e6e6;
+	background-image: url("../images/tavolo.jpg");
+	border: 10px groove rgb(114, 65, 48);
+	margin: 8% auto 0 auto;
+	position: inherit;
+	box-shadow:20px 20px 50px rgba(0, 0, 0, 0.849);
+}
+
+th{
+	padding: 1% 0%;
+	font-size: 3vh;
+	border: 2px groove rgb(117, 69, 53);
+}
+
+#creaCart{
+	border: 4px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	border-radius: 10px;
+	height: 7%;
+	font-size: 2.5vh;
+	left: 10%;
+	margin-top: 125%;
+	position: fixed;
+	box-shadow:20px 20px 50px rgba(0, 0, 0, 0.87);
+}
+
+#creaCart:active{
+	background-color: rgb(238, 238, 238);
+	box-shadow:20px 20px 50px rgba(0, 0, 0, 0.925);
+	transform: translateY(4px);
+}
+
+#creaCart:disabled{
+	background-color: rgb(172, 172, 172);
+}
+
+#genNum{
+	border: 3px solid rgb(255, 255, 255);
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	height: 7%;
+	font-size: 2.5vh;
+	right: 10%;
+	margin-top: 125%;
+	position: fixed;
+	box-shadow:20px 20px 50px rgba(0, 0, 0, 0.87);
+}
+
+#genNum:active{
+	box-shadow:20px 20px 50px rgba(0, 0, 0, 0.925);
+	transform: translateY(4px);
+}
+
+.tabelle{
+	width: 80%;
+	background-color:  #e6e6e6;
+	border: 5px inset yellow;
+	position: inherit;
+	table-layout: fixed;
+	box-shadow:20px 20px 50px rgba(0, 0, 0, 0.726);
+}
+
+#ultimi5{
+	margin: 5% auto 0 auto;
+	width: fit-content;
+	height: fit-content;
+	font-size: 4.5vh;
+	color: white;
+	-webkit-text-stroke: 1px black;
+}
+
+#ultimi5 b{
+	font-size: 5.5vh;
+	color: white;
+}
